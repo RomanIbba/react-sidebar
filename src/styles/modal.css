@@ -1,0 +1,212 @@
+.myModal{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(#000,.7);
+    z-index: 10;
+}
+ 
+.myModal .modal-dialog{
+    width: 400px;
+    box-sizing: border-box;
+    padding: 0px;
+    background: #fff;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: var(--light);
+}
+ 
+.myModal .modal-dialog .modalHeader{
+    width: 100%;
+    height: 5vh;
+    background: #008CBA;
+    color: var(--light);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-left:15px;
+}
+.myModal .modal-dialog .modalHeader .headerTitle{
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.myModal .modal-dialog .modalHeader .closeBtn{
+    cursor: pointer;
+    display: block;
+    line-height: 30px;
+    padding: 0 15px;
+    font-size: 18px;
+    font-weight: 500;
+    color: #FFFFFF;
+    border-radius: 3px;
+}
+
+.myModal .modal-dialog .modal-body{
+    margin-bottom: 10px;
+}
+
+.myModal .modal-dialog .modal-body .form-group{
+    /* width: 100%; */
+    border: 1px solid #ddd;
+    border-radius: 3px;
+    line-height: 34px;
+    padding: 0 15px;
+    font-size: 14px;
+    box-sizing: border-box;
+    color: var(--dark);
+} 
+
+.myModal .modal-dialog .modal-body .form-group .form-control{
+    width: 100%;
+    line-height: 34px;
+    background: var(--light);
+    color: var(--dark);
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+}
+
+.myModal .modal-dialog .modal-footer .btn{
+    width: 100%;
+    line-height: 34px;
+    background: #666;
+    color: #fff;
+    cursor: pointer;
+    border-radius: 3px;
+    border: none;
+    font-size: 14px;
+}
+
+.myModal .modal-dialog .modal-footer .btn:hover{
+    background: #444;
+}
+ 
+.editHeader{
+    padding:10px;
+    background: #4CAF50;
+    color: #FFFFFF;
+    height:50px;
+    font-size:20px;
+    padding-left:15px;
+}
+ 
+.deleteHeader{
+    padding:10px;
+    background: #f44336;
+    color: #FFFFFF;
+    height:50px;
+    font-size:20px;
+    padding-left:15px;
+}
+ 
+.modalBody{
+    padding:40px;
+}
+ 
+.modalFooter{
+    height:36px;
+}
+ 
+.footerBtn{
+    margin-right:10px;
+    margin-top:-9px;
+}
+ 
+.closeBtn{
+    background: #008CBA;
+    color: #FFFFFF;
+    border:none;
+}
+ 
+.closeEditBtn{
+    background: #4CAF50;
+    color: #FFFFFF;
+    border:none;
+}
+ 
+.closeDelBtn{
+    background: #f44336;
+    color: #FFFFFF;
+    border:none;
+}
+
+
+/* .myModal{
+    position:fixed;
+    top:30%;
+    left:50%;
+    -webkit-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    background: rgba(0, 0, 0, 0.4);
+}
+ 
+.modalContainer{
+    width: 555px;
+    background: #FFFFFF;
+    margin:auto;
+    margin-top:50px;
+}
+ 
+.modalHeader{
+    padding:10px;
+    background: #008CBA;
+    color: #FFFFFF;
+    height:50px;
+    font-size:20px;
+    padding-left:15px;
+}
+ 
+.editHeader{
+    padding:10px;
+    background: #4CAF50;
+    color: #FFFFFF;
+    height:50px;
+    font-size:20px;
+    padding-left:15px;
+}
+ 
+.deleteHeader{
+    padding:10px;
+    background: #f44336;
+    color: #FFFFFF;
+    height:50px;
+    font-size:20px;
+    padding-left:15px;
+}
+ 
+.modalBody{
+    padding:40px;
+}
+ 
+.modalFooter{
+    height:36px;
+}
+ 
+.footerBtn{
+    margin-right:10px;
+    margin-top:-9px;
+}
+ 
+.closeBtn{
+    background: #008CBA;
+    color: #FFFFFF;
+    border:none;
+}
+ 
+.closeEditBtn{
+    background: #4CAF50;
+    color: #FFFFFF;
+    border:none;
+}
+ 
+.closeDelBtn{
+    background: #f44336;
+    color: #FFFFFF;
+    border:none;
+} */
